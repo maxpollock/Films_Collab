@@ -6,10 +6,15 @@
 
 let text;
 
-  if (confirm("Press Ok if you prefer watching movies at Home or Cancel if you're a Cinema-goer!") == true) {
-    text = "Nice one, you prefer being cozy at home watching movies!";
-  } else {
-    text = "Awesome! You prefer going to the big screen cinema. Where's the popcorn?";
-  }
+if (
+  confirm(
+    "Press Ok if you prefer watching movies at Home or Cancel if you're a Cinema-goer!"
+  ) == true
+) {
+  text = "Nice one, you prefer being cozy at home watching movies!";
+} else {
+  text =
+    "Awesome! You prefer going to the big screen cinema. Where's the popcorn?";
+}
 
-  document.write(text);
+document.write(text);
