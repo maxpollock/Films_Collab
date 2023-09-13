@@ -13,6 +13,12 @@ header {
   color: white;
 }
 
+.script_title {
+    text-align: center;
+    padding: 5px;
+    font-size: 35px;
+}
+
 h1 {
   font-size: 45px;
 }
@@ -50,6 +56,12 @@ button:hover {
   width: 250px;
   height: auto;
   border: 2px solid black;
+}
+
+.small_img {
+    width: 50px;
+    height: auto;
+    margin-left: 15px;
 }
 
 /* Hero Section */
