@@ -11,12 +11,15 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,300&display=swap"
       rel="stylesheet"
     />
+    <script src="./app.js"></script>
   </head>
   <header>
     <h1>Max's Film Picks</h1>
     <ul>
       <li>
-        <a href="https://ritchie2710.github.io/class4-html"><button>Ritchie's</button></a>
+        <a href="https://ritchie2710.github.io/class4-html"
+          ><button>Ritchie's</button></a
+        >
       </li>
       <li>
         <a href="https://nellie-allsop.github.io/class-4-lab/"
@@ -24,22 +27,34 @@
         >
       </li>
       <li>
-        <a href="https://windyshepperhenderson.github.io/lab4sam/"><button>Rory's</button></a>
+        <a href="https://windyshepperhenderson.github.io/lab4sam/"
+          ><button>Rory's</button></a
+        >
       </li>
     </ul>
   </header>
   <body>
+    <h3 class="script_title">
+      <script>
+        writeMessage();
+      </script>
+      <span
+        ><img class="small_img" src="./images/waving-hand.png" alt="waving-hand"
+      /></span>
+    </h3>
 
-    <h3 class="script_title"><script src="./name.js"></script><span><img class="small_img" src="./waving-hand.png" alt="waving-hand"></span></h3>
-    
     <div class="hero_title">
       <h2>Home or Cinema?</h2>
     </div>
 
-    <h4 class="script_title"><script src="./view.js"></script></h4>
+    <h4 class="script_title">
+      <script>
+        buttonOutcome();
+      </script>
+    </h4>
 
     <div>
-      <img src="./Vue.jpg" alt="Cinema Seating and Screen" class="hero_img" />
+      <img src="./images/Vue.jpg" alt="Cinema Seating and Screen" class="hero_img" />
     </div>
 
     <div class="hero_text">
@@ -60,7 +75,7 @@
     <div class="card_container">
       <div class="card">
         <img
-          src="./hot_fuzz.jpg"
+          src="./images/hot_fuzz.jpg"
           alt="Hot Fuzz movie poster"
           class="card_img"
         />
@@ -72,7 +87,7 @@
 
       <div class="card">
         <img
-          src="./fantastic-mr-fox.png"
+          src="./images/fantastic-mr-fox.png"
           alt="Fantastic Mr Fox movie poster"
           class="card_img"
         />
@@ -84,16 +99,18 @@
 
       <div class="card">
         <img
-          src="./Batman.jpg"
+          src="./images/Batman.jpg"
           alt="Batman The Dark Night movie poster"
           class="card_img"
         />
         <p>Batman - The Dark Knight: what's not to love?</p>
       </div>
     </div>
-    <script src="./color.js"></script>
+    <script>
+      chgBgd();
+    </script>
   </body>
-  
+
   <footer>
     <p>
       Copyright &copy; 2023. A collaboration by Max, Nellie, Ritchie and Rory
