@@ -1,6 +1,10 @@
 function writeMessage() {
   let username = prompt("Hello there! What is your name?");
 
+  if (isNaN(username) == false) {
+    username = prompt("Sorry, that is not a valid name, please try again.");
+  }
+
   userMessage = "Hey " + username + "! Welcome to my favourite films page";
 
   document.write(userMessage);
