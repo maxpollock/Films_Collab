@@ -40,22 +40,39 @@
         writeMessage();
       </script>
       <span
-        ><img class="small_img" src="./images/waving-hand.png" alt="waving-hand"
+        ><img
+          class="small_img"
+          src="./images/waving-hand.png"
+          alt="waving-hand"
       /></span>
     </h3>
 
-    <div class="hero_title">
-      <h2>Home or Cinema?</h2>
+    <div class="input_div">
+      <input
+        type="button"
+        onClick="viewQuestion();"
+        value="Do you prefer Home or Cinema?"
+      />
     </div>
 
-    <h4 class="script_title">
+    <h4 id="outcome_title">
       <script>
-        buttonOutcome();
+        questionOutcome();
       </script>
     </h4>
 
+    <div id="popcorn">
+      <script>
+        givePopcorn();
+      </script>
+    </div>
+
     <div>
-      <img src="./images/Vue.jpg" alt="Cinema Seating and Screen" class="hero_img" />
+      <img
+        src="./images/Vue.jpg"
+        alt="Cinema Seating and Screen"
+        class="hero_img"
+      />
     </div>
 
     <div class="hero_text">
