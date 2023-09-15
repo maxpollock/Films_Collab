@@ -60,10 +60,11 @@ function givePopcorn() {
   }
 }
 
-function inputNumber() {
-  let numBer = prompt("Please input a number between 1 and 5.");
+// inputNumber function for practice creating a while statement
+// function inputNumber() {
+//   let numBer = prompt("Please input a number between 1 and 5.");
 
-  while (numBer >= 6 && number < 0) {
-    numBer = prompt("That is incorrect. Please input a number between 1 - 5.");
-  }
-}
+//   while (numBer >= 6 && number < 0) {
+//     numBer = prompt("That is incorrect. Please input a number between 1 - 5.");
+//   }
+// }
